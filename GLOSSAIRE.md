@@ -42,6 +42,15 @@ Ce glossaire explique simplement les termes utilisés dans mon portfolio et dans
 | **ACL** | *Access Control List* : liste de règles sur un routeur qui autorise ou bloque certains flux (par adresse, protocole ou port). |
 | **NAT** | *Network Address Translation* : traduit les adresses privées d'un réseau interne en adresse publique pour accéder à Internet. |
 | **PAT** | *Port Address Translation* : variante du NAT où plusieurs appareils partagent une seule adresse publique, distingués par des numéros de port. C'est ce que fait une box Internet. |
+| **Modèle OSI** | Découpage du fonctionnement d'un réseau en 7 couches, de la couche physique (câbles) jusqu'aux applications. Sert de méthode pour dépanner dans l'ordre. |
+| **ARP** | Protocole qui trouve l'adresse physique (MAC) d'une machine à partir de son adresse IP. |
+| **Adresse MAC** | Identifiant physique unique de chaque carte réseau. |
+| **SVI** | Interface virtuelle d'un commutateur de niveau 3, qui lui permet de router entre VLAN sans routeur externe. |
+| **Wildcard mask** | Masque « inversé » utilisé dans les ACL Cisco (ex. `0.0.0.255` pour un réseau /24). |
+| **Port security** | Fonction d'un switch qui limite le nombre d'appareils pouvant se brancher sur un port. |
+| **DHCP snooping** | Fonction d'un switch qui bloque les faux serveurs DHCP. |
+| **SDN** | *Software Defined Networking* : gestion du réseau centralisée dans un contrôleur, qui configure tous les équipements. |
+| **CDP** | Protocole Cisco qui permet à un équipement de découvrir ses voisins. |
 | **Ping** | Commande qui teste si un appareil répond sur le réseau. |
 | **Traceroute** | Commande qui affiche le chemin (la liste des routeurs) emprunté pour atteindre une destination. |
 
@@ -71,6 +80,9 @@ Ce glossaire explique simplement les termes utilisés dans mon portfolio et dans
 | **JavaScript** | Langage de programmation principalement utilisé pour les sites web. |
 | **CSV** | Fichier texte en forme de tableau, où les valeurs sont séparées par des virgules ou des points-virgules. Souvent utilisé pour importer des listes d'utilisateurs. |
 | **API REST** | Moyen standard pour que deux logiciels communiquent entre eux via le web (par des requêtes HTTP). |
+| **JSON** | Format texte structuré utilisé pour échanger des données, notamment avec les API. |
+| **Jeton (token)** | Clé temporaire remise après authentification, utilisée à la place du mot de passe. |
+| **Postman** | Logiciel qui permet d'envoyer facilement des requêtes à une API. |
 | **SHA-256** | Algorithme qui calcule l'« empreinte » unique d'un fichier. Si le fichier est modifié, même d'un seul caractère, l'empreinte change : on vérifie ainsi qu'il n'a pas été altéré. |
 
 ## Gestion de parc et supervision
