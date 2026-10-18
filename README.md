@@ -23,6 +23,7 @@ Chaque projet dispose de son propre dépôt, avec le contexte, le schéma, la co
 
 | Projet | Thème | Ce que j'ai mis en place |
 | --- | --- | --- |
+| [🗂️ Serveur GLPI et inventaire du parc](https://github.com/EvanBienvenu/installation-serveur-glpi) | Gestion de parc | GLPI 11 sur Debian (Apache, MariaDB, PHP), administré en SSH, inventaire automatique de 5 machines |
 | [🌐 Réseau multi-sites ALPEX](https://github.com/EvanBienvenu/reseau-multisites-alpex) | Routage | 4 routeurs Cisco 1941 en anneau : routage statique, RIPv2 puis OSPFv2 |
 | [🧱 VLAN et routage inter-VLAN](https://github.com/EvanBienvenu/vlan-routage-intervlan) | Commutation | Segmentation sur switches 2960 et communication entre VLAN |
 | [📡 DHCP centralisé avec relais](https://github.com/EvanBienvenu/dhcp-relais-centralise) | Services réseau | Un seul serveur DHCP pour plusieurs LAN grâce à `ip helper-address` |

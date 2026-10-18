@@ -52,6 +52,9 @@ Ce glossaire explique simplement les termes utilisés dans mon portfolio et dans
 | **Système d'exploitation (OS)** | Logiciel principal qui fait fonctionner un ordinateur : Windows, Linux, macOS… |
 | **Windows Server 2022** | Version de Windows conçue pour les serveurs d'entreprise. |
 | **Linux** | Système d'exploitation libre, très utilisé sur les serveurs. |
+| **Debian / Ubuntu** | Deux distributions (versions) de Linux : Debian est réputée pour sa stabilité sur les serveurs, Ubuntu en est dérivée. |
+| **SSH** | Protocole qui permet d'administrer un serveur à distance, en ligne de commande, de façon chiffrée. |
+| **root** | Le compte administrateur tout-puissant de Linux. |
 | **Active Directory (AD DS)** | Annuaire de Microsoft qui centralise les comptes utilisateurs, les ordinateurs et les droits d'accès d'une entreprise. |
 | **Machine virtuelle (VM)** | Ordinateur simulé par un logiciel, qui fonctionne à l'intérieur d'un vrai ordinateur. Permet de faire tourner plusieurs systèmes sur une seule machine. |
 | **HDD / SSD** | Deux types de disques de stockage : le HDD est mécanique, le SSD est électronique et bien plus rapide. |
@@ -77,6 +80,8 @@ Ce glossaire explique simplement les termes utilisés dans mon portfolio et dans
 | **Gestion de parc** | Suivi de l'ensemble du matériel et des logiciels d'une organisation. |
 | **GLPI** | Logiciel libre de gestion de parc et de suivi des tickets d'incident (helpdesk). |
 | **Ticket d'incident** | Demande enregistrée lorsqu'un utilisateur rencontre un problème, pour en suivre la résolution. |
+| **Agent GLPI** | Petit programme installé sur chaque machine, qui envoie automatiquement son inventaire au serveur GLPI. |
+| **LDAP** | Protocole qui permet à une application (comme GLPI) d'interroger un annuaire (comme Active Directory). |
 | **WAPT** | Logiciel qui installe et met à jour automatiquement des programmes sur de nombreux ordinateurs à la fois. |
 | **Packaging** | Préparation d'un logiciel sous forme de « paquet » prêt à être installé automatiquement. |
 | **Déploiement multi-OS** | Installation de logiciels ou de configurations sur des ordinateurs utilisant des systèmes différents (Windows, Linux, macOS). |
@@ -104,6 +109,10 @@ Ce glossaire explique simplement les termes utilisés dans mon portfolio et dans
 | **Conteneur** | Environnement léger et isolé qui contient une application et tout ce dont elle a besoin pour fonctionner. |
 | **Docker Compose** | Outil qui décrit et lance plusieurs conteneurs à partir d'un seul fichier de configuration. |
 | **MySQL** | Système de gestion de bases de données très répandu. |
+| **MariaDB** | Système de gestion de bases de données compatible avec MySQL, installé par défaut sur Debian. |
+| **LAMP** | Ensemble de logiciels pour héberger une application web : Linux, Apache, MariaDB/MySQL, PHP. |
+| **Apache** | Serveur web : il reçoit les requêtes des navigateurs et renvoie les pages. |
+| **PHP** | Langage de programmation exécuté par le serveur web, utilisé notamment par GLPI. |
 | **Git** | Logiciel de gestion de versions : il garde l'historique de toutes les modifications d'un projet. |
 | **GitHub** | Site web qui héberge des projets Git et permet de les partager. |
 | **Dépôt (repository)** | Dossier d'un projet suivi par Git, avec tout son historique. |
